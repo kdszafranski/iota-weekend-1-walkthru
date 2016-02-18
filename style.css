@@ -1,0 +1,70 @@
+body {
+	font-family: Tahoma, sans-serif;
+}
+
+#entryForm {
+	padding: 20px;
+	margin: 10px;
+	background-color: #ccc;
+	border: 1px solid gray;
+	line-height: 40px;
+}
+
+#entryForm label {
+	font-weight: bold;
+	margin-left: 6px;
+}
+
+input[type=text], input[type=number], input[type=submit] {
+	border: 1px solid #333;
+	height: 20px;
+	line-height: 20px;
+	padding: 2px;
+	font-size: 14px;
+}
+
+input[type=submit] {
+	background-color: orange;
+	height: auto;
+	padding: 5px;
+}
+
+input[type=submit]:hover {
+	background-color: LightBlue;
+}
+
+#container div {
+	float: left;
+	width: 300px;	
+	margin: 10px;
+}
+
+#salaryTotal {
+	float: right;
+	font-weight: bold;
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+.acceptable {
+	color: black;
+}
+
+.warning {
+	color: red;
+}
+
+#salaryheading {
+	margin-right: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
